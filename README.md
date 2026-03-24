@@ -25,3 +25,21 @@ Architecture Spec → RTL Coding → ModelSim Simulation
 Kumar Saurab
 krsaurab62@gmail.com
 linkedin.com/in/kumarsaurab49
+
+## Simulation Waveform
+> ModelSim simulation showing correct output across test vectors
+
+
+
+![Simulation Waveform](waveform_multiplier.png)
+
+
+
+---
+
+## Timing Report
+> Vivado timing summary — 134 MHz, +0.3 ns setup slack, zero violations
+
+
+
+![Timing Summary](timing_multiplier.png)

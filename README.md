@@ -4,6 +4,10 @@
 A high-speed hybrid multiplier designed in Verilog combining 
 Booth encoding with a Carry-Select / Carry-Lookahead adder 
 tree. Implemented and validated on Xilinx Artix-7 (Basys 3).
+## Block Diagram
+
+
+![Block Diagram](block_diagram.png)
 
 ## Key Results
 - Max Frequency: 134 MHz (+57% vs ripple-carry baseline)

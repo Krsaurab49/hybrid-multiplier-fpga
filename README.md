@@ -24,6 +24,20 @@ tree. Implemented and validated on Xilinx Artix-7 (Basys 3).
 ## Design Flow
 Architecture Spec → RTL Coding → ModelSim Simulation 
 → Vivado Synthesis → Bitstream → FPGA Hardware Validation
+## How to Simulate
+
+### ModelSim
+```bash
+# Step 1 — Compile source
+vlog src/hybrid_multiplier.v
+
+# Step 2 — Compile testbench
+vlog testbench/tb_hybrid_multiplier.v
+
+# Step 3 — Run simulation
+vsim tb_hybrid_multiplier
+run -all
+Expected output: Simulation ran successfully — 1,024 vectors — ALL PASSED
 
 ## Contact
 Kumar Saurab
